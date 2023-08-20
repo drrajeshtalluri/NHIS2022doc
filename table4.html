@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>NHIS 2022 Cancer Smoking advice – table4</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./table5.html" rel="next">
+<link href="./table3.html" rel="prev">
+<link href="./logo.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+<script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="site_libs/datatables-binding-0.28/datatables.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/dt-core-1.13.4/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="site_libs/dt-core-1.13.4/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="site_libs/dt-core-1.13.4/js/jquery.dataTables.min.js"></script>
+<script src="site_libs/jszip-1.13.4/jszip.min.js"></script>
+<script src="site_libs/pdfmake-1.13.4/pdfmake.js"></script>
+<script src="site_libs/pdfmake-1.13.4/vfs_fonts.js"></script>
+<link href="site_libs/dt-ext-buttons-1.13.4/css/buttons.dataTables.min.css" rel="stylesheet">
+<script src="site_libs/dt-ext-buttons-1.13.4/js/dataTables.buttons.min.js"></script>
+<script src="site_libs/dt-ext-buttons-1.13.4/js/buttons.html5.min.js"></script>
+<script src="site_libs/dt-ext-buttons-1.13.4/js/buttons.colVis.min.js"></script>
+<script src="site_libs/dt-ext-buttons-1.13.4/js/buttons.print.min.js"></script>
+<link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed fullcontent">
+
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">NHIS 2022 Cancer Smoking advice</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com" rel="" target=""><i class="bi bi-person-fill" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./table4.html">Regression Table for Doctor advice in cancer survivors</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-bookmark-fill" role="img">
+</i> 
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./table1.html" class="sidebar-item-text sidebar-link"><i class="bi bi-bookmark-fill" role="img">
+</i> 
+ <span class="menu-text">Descriptive Tables</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./table2.html" class="sidebar-item-text sidebar-link"><i class="bi bi-bookmark-fill" role="img">
+</i> 
+ <span class="menu-text">Stratified Tables</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./table3.html" class="sidebar-item-text sidebar-link"><i class="bi bi-bookmark-fill" role="img">
+</i> 
+ <span class="menu-text">Regression Table for Doctor advice</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./table4.html" class="sidebar-item-text sidebar-link active"><i class="bi bi-bookmark-fill" role="img">
+</i> 
+ <span class="menu-text">Regression Table for Doctor advice in cancer survivors</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./table5.html" class="sidebar-item-text sidebar-link"><i class="bi bi-bookmark-fill" role="img">
+</i> 
+ <span class="menu-text">Regression Table for Doctor advice individuals with no cancer history</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<style type="text/css">
+@import url("http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
+</style>
+<section id="regression-predicting-likelihood-of-doctors-advice-to-quit-smoking-in-cancer-survivors" class="level2">
+<h2 class="anchored" data-anchor-id="regression-predicting-likelihood-of-doctors-advice-to-quit-smoking-in-cancer-survivors">Regression predicting likelihood of doctors advice to quit smoking in cancer survivors</h2>
+<div class="cell">
+<div class="cell-output-display">
+
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-79f33842f174b994cd79" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-79f33842f174b994cd79">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"caption":"<caption>Model: doctor_quit_advice_cig ~ age_cat + sex + race_eth + educ + poverty + smoking_status + covered_ins + insurance_type<\/caption>","data":[["(Intercept)                  ","age_cat30-44                 ","age_cat45-64                 ","age_cat65+                   ","sexFemale                    ","race_ethNon-Hispanic Black   ","race_ethHispanic             ","race_ethNon-Hispanic Other   ","educLess than High School    ","educSome College             ","educBachelors or higher      ","povertyAbove Poverty Level   ","smoking_statusFormer Smoker  ","covered_insCovered           ","insurance_typeMedicaid/Public","insurance_typeOther          "],["<span style=\"color: #d46a2a\">\n  <i class=\"glyphicon glyphicon-arrow-down\"><\/i>\n  0.776\n<\/span>","<span style=\"color: #368844\">\n  <i class=\"glyphicon glyphicon-arrow-up\"><\/i>\n  1.738\n<\/span>  ","<span style=\"color: #368844\">\n  <i class=\"glyphicon glyphicon-arrow-up\"><\/i>\n  1.740\n<\/span>  ","<span style=\"color: #368844\">\n  <i class=\"glyphicon glyphicon-arrow-up\"><\/i>\n  1.518\n<\/span>  ","<span style=\"color: #d46a2a\">\n  <i class=\"glyphicon glyphicon-arrow-down\"><\/i>\n  0.774\n<\/span>","<span style=\"color: #368844\">\n  <i class=\"glyphicon glyphicon-arrow-up\"><\/i>\n  3.512\n<\/span>  ","<span style=\"color: #d46a2a\">\n  <i class=\"glyphicon glyphicon-arrow-down\"><\/i>\n  0.753\n<\/span>","<span style=\"color: #d46a2a\">\n  <i class=\"glyphicon glyphicon-arrow-down\"><\/i>\n  0.872\n<\/span>","<span style=\"color: #368844\">\n  <i class=\"glyphicon glyphicon-arrow-up\"><\/i>\n  1.203\n<\/span>  ","<span style=\"color: #368844\">\n  <i class=\"glyphicon glyphicon-arrow-up\"><\/i>\n  1.549\n<\/span>  ","<span style=\"color: #d46a2a\">\n  <i class=\"glyphicon glyphicon-arrow-down\"><\/i>\n  0.793\n<\/span>","<span style=\"color: #d46a2a\">\n  <i class=\"glyphicon glyphicon-arrow-down\"><\/i>\n  0.905\n<\/span>","<span style=\"color: #d46a2a\">\n  <i class=\"glyphicon glyphicon-arrow-down\"><\/i>\n  0.997\n<\/span>","<span style=\"color: #368844\">\n  <i class=\"glyphicon glyphicon-arrow-up\"><\/i>\n  1.131\n<\/span>  ","<span style=\"color: #368844\">\n  <i class=\"glyphicon glyphicon-arrow-up\"><\/i>\n  1.398\n<\/span>  ","<span style=\"color: #368844\">\n  <i class=\"glyphicon glyphicon-arrow-up\"><\/i>\n  2.132\n<\/span>  "],["<span>0.046<\/span>","<span>0.145<\/span>","<span>0.155<\/span>","<span>0.142<\/span>","<span>0.443<\/span>","<span>1.125<\/span>","<span>0.230<\/span>","<span>0.242<\/span>","<span>0.489<\/span>","<span>0.780<\/span>","<span>0.382<\/span>","<span>0.419<\/span>","<span>0.445<\/span>","<span>0.295<\/span>","<span>0.738<\/span>","<span>0.995<\/span>"],["<span>13.038<\/span>","<span>20.802<\/span>","<span>19.556<\/span>","<span>16.268<\/span>","<span>1.351<\/span> ","<span>10.962<\/span>","<span>2.470<\/span> ","<span>3.145<\/span> ","<span>2.962<\/span> ","<span>3.076<\/span> ","<span>1.647<\/span> ","<span>1.957<\/span> ","<span>2.233<\/span> ","<span>4.336<\/span> ","<span>2.650<\/span> ","<span>4.566<\/span> "],["<span style=\"color: gray\">\n  <i class=\"glyphicon glyphicon-remove\"><\/i>\n  0.859\n<\/span>             ","<span style=\"color: gray\">\n  <i class=\"glyphicon glyphicon-remove\"><\/i>\n  0.661\n<\/span>             ","<span style=\"color: gray\">\n  <i class=\"glyphicon glyphicon-remove\"><\/i>\n  0.652\n<\/span>             ","<span style=\"color: gray\">\n  <i class=\"glyphicon glyphicon-remove\"><\/i>\n  0.729\n<\/span>             ","<span style=\"color: gray\">\n  <i class=\"glyphicon glyphicon-remove\"><\/i>\n  0.365\n<\/span>             ","<span style=\"color: #368844\">\n  <i class=\"glyphicon glyphicon-exclamation-sign\"><\/i>\n  0.031\n<\/span>","<span style=\"color: gray\">\n  <i class=\"glyphicon glyphicon-remove\"><\/i>\n  0.638\n<\/span>             ","<span style=\"color: gray\">\n  <i class=\"glyphicon glyphicon-remove\"><\/i>\n  0.833\n<\/span>             ","<span style=\"color: gray\">\n  <i class=\"glyphicon glyphicon-remove\"><\/i>\n  0.686\n<\/span>             ","<span style=\"color: gray\">\n  <i class=\"glyphicon glyphicon-remove\"><\/i>\n  0.209\n<\/span>             ","<span style=\"color: gray\">\n  <i class=\"glyphicon glyphicon-remove\"><\/i>\n  0.532\n<\/span>             ","<span style=\"color: gray\">\n  <i class=\"glyphicon glyphicon-remove\"><\/i>\n  0.8\n<\/span>               ","<span style=\"color: gray\">\n  <i class=\"glyphicon glyphicon-remove\"><\/i>\n  0.994\n<\/span>             ","<span style=\"color: gray\">\n  <i class=\"glyphicon glyphicon-remove\"><\/i>\n  0.857\n<\/span>             ","<span style=\"color: gray\">\n  <i class=\"glyphicon glyphicon-remove\"><\/i>\n  0.302\n<\/span>             ","<span style=\"color: orange\">\n  <i class=\"glyphicon glyphicon-question-sign\"><\/i>\n  0.051\n<\/span>    "]],"container":"<table class=\"compact hover row-border\">\n  <thead>\n    <tr>\n      <th>Variable Name<\/th>\n      <th>Odds Ratio<\/th>\n      <th>Lower 95% CI<\/th>\n      <th>Upper 95% CI<\/th>\n      <th>P-Value<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"Btip","paging":false,"buttons":["copy","csv","excel","pdf","print"],"initComplete":"function(settings, json) {\n$(this.api().table().header()).css({'background-color': '#7b8fb5', 'color': '#fff'});\n}","columnDefs":[{"className":"dt-center","targets":[1,2,3]}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":["options.initComplete"],"jsHooks":[]}</script>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./table3.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Regression Table for Doctor advice</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./table5.html" class="pagination-link">
+        <span class="nav-page-text">Regression Table for Doctor advice individuals with no cancer history</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
