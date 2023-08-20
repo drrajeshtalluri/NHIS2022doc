@@ -1,10 +1,24 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "",
-    "section": "",
-    "text": "Study Sample"
+    "objectID": "table5.html#regression-predicting-likelihood-of-doctors-advice-to-quit-smoking-all-tobacco",
+    "href": "table5.html#regression-predicting-likelihood-of-doctors-advice-to-quit-smoking-all-tobacco",
+    "title": "NHIS 2022 Cancer Smoking advice",
+    "section": "Regression predicting likelihood of doctors advice to quit smoking all tobacco",
+    "text": "Regression predicting likelihood of doctors advice to quit smoking all tobacco"
+  },
+  {
+    "objectID": "table3.html#regression-predicting-likelihood-of-doctors-advice-to-quit-smoking-all-tobacco",
+    "href": "table3.html#regression-predicting-likelihood-of-doctors-advice-to-quit-smoking-all-tobacco",
+    "title": "NHIS 2022 Cancer Smoking advice",
+    "section": "Regression predicting likelihood of doctors advice to quit smoking all tobacco",
+    "text": "Regression predicting likelihood of doctors advice to quit smoking all tobacco"
+  },
+  {
+    "objectID": "table2.html#doctor-advice-to-quit-smoking-in-individuals-with-cancer-vs-without-cancer-stratified-by-covariates",
+    "href": "table2.html#doctor-advice-to-quit-smoking-in-individuals-with-cancer-vs-without-cancer-stratified-by-covariates",
+    "title": "NHIS 2022 Cancer Smoking advice",
+    "section": "Doctor advice to quit smoking in Individuals with Cancer vs without Cancer stratified by covariates",
+    "text": "Doctor advice to quit smoking in Individuals with Cancer vs without Cancer stratified by covariates"
   },
   {
     "objectID": "preproc.html",
@@ -14,10 +28,24 @@
     "text": "Download Data for nhis 2022\n\n\nSelect data for nhis 2022\n\n\nClean data for nhis 2022"
   },
   {
-    "objectID": "table2.html#doctor-advice-to-quit-smoking-in-individuals-with-cancer-vs-without-cancer-stratified-by-covariates",
-    "href": "table2.html#doctor-advice-to-quit-smoking-in-individuals-with-cancer-vs-without-cancer-stratified-by-covariates",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Study Sample"
+  },
+  {
+    "objectID": "table2a.html#doctor-advice-to-quit-smoking-in-individuals-with-cancer-vs-without-cancer-stratified-by-covariates",
+    "href": "table2a.html#doctor-advice-to-quit-smoking-in-individuals-with-cancer-vs-without-cancer-stratified-by-covariates",
     "title": "NHIS 2022 Cancer Smoking advice",
     "section": "Doctor advice to quit smoking in Individuals with Cancer vs without Cancer stratified by covariates",
     "text": "Doctor advice to quit smoking in Individuals with Cancer vs without Cancer stratified by covariates"
+  },
+  {
+    "objectID": "table4.html#regression-predicting-likelihood-of-doctors-advice-to-quit-smoking-all-tobacco",
+    "href": "table4.html#regression-predicting-likelihood-of-doctors-advice-to-quit-smoking-all-tobacco",
+    "title": "NHIS 2022 Cancer Smoking advice",
+    "section": "Regression predicting likelihood of doctors advice to quit smoking all tobacco",
+    "text": "Regression predicting likelihood of doctors advice to quit smoking all tobacco"
   }
 ]
