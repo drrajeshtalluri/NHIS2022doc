@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>NHIS 2022 Cancer Smoking advice – table1</title>
+<title>NHIS 2022 Cancer Smoking advice - Preprocess NHIS 2022 Data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./table2.html" rel="next">
-<link href="./index.html" rel="prev">
 <link href="./logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -63,26 +61,10 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-<script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
-<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
-<script src="site_libs/datatables-binding-0.28/datatables.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<link href="site_libs/dt-core-1.13.4/css/jquery.dataTables.min.css" rel="stylesheet">
-<link href="site_libs/dt-core-1.13.4/css/jquery.dataTables.extra.css" rel="stylesheet">
-<script src="site_libs/dt-core-1.13.4/js/jquery.dataTables.min.js"></script>
-<script src="site_libs/jszip-1.13.4/jszip.min.js"></script>
-<script src="site_libs/pdfmake-1.13.4/pdfmake.js"></script>
-<script src="site_libs/pdfmake-1.13.4/vfs_fonts.js"></script>
-<link href="site_libs/dt-ext-buttons-1.13.4/css/buttons.dataTables.min.css" rel="stylesheet">
-<script src="site_libs/dt-ext-buttons-1.13.4/js/dataTables.buttons.min.js"></script>
-<script src="site_libs/dt-ext-buttons-1.13.4/js/buttons.html5.min.js"></script>
-<script src="site_libs/dt-ext-buttons-1.13.4/js/buttons.colVis.min.js"></script>
-<script src="site_libs/dt-ext-buttons-1.13.4/js/buttons.print.min.js"></script>
-<link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
-<script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
-
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="NHIS 2022 Cancer Smoking advice - Preprocess NHIS 2022 Data">
+<meta property="og:site-name" content="NHIS 2022 Cancer Smoking advice">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -114,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./table1.html">Descriptive Tables</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Preprocess NHIS 2022 Data</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -143,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./table1.html" class="sidebar-item-text sidebar-link active"><i class="bi bi-bookmark-fill" role="img">
+  <a href="./table1.html" class="sidebar-item-text sidebar-link"><i class="bi bi-bookmark-fill" role="img">
 </i> 
  <span class="menu-text">Descriptive Tables</span></a>
   </div>
@@ -193,35 +175,40 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#descriptive-table-for-cig-sample" id="toc-descriptive-table-for-cig-sample" class="nav-link active" data-scroll-target="#descriptive-table-for-cig-sample">Descriptive Table for cig sample</a></li>
-  <li><a href="#descriptive-table-for-all-sample" id="toc-descriptive-table-for-all-sample" class="nav-link" data-scroll-target="#descriptive-table-for-all-sample">Descriptive Table for all sample</a></li>
+  <li><a href="#download-data-for-nhis-2022" id="toc-download-data-for-nhis-2022" class="nav-link active" data-scroll-target="#download-data-for-nhis-2022">Download Data for nhis 2022</a></li>
+  <li><a href="#select-data-for-nhis-2022" id="toc-select-data-for-nhis-2022" class="nav-link" data-scroll-target="#select-data-for-nhis-2022">Select data for nhis 2022</a></li>
+  <li><a href="#clean-data-for-nhis-2022" id="toc-clean-data-for-nhis-2022" class="nav-link" data-scroll-target="#clean-data-for-nhis-2022">Clean data for nhis 2022</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-<section id="descriptive-table-for-cig-sample" class="level2">
-<h2 class="anchored" data-anchor-id="descriptive-table-for-cig-sample">Descriptive Table for cig sample</h2>
-<div class="cell">
-<div class="cell-output-display">
-
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-e67dc3c1c91601850536" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-e67dc3c1c91601850536">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["age_cat","age_cat","sex","sex","race_eth","race_eth","race_eth","race_eth","educ","educ","educ","educ","poverty","poverty","smoking_status","smoking_status","covered_ins","covered_ins","insurance_type_l65","insurance_type_l65","insurance_type_l65","insurance_type_l65","insurance_type_g65","insurance_type_g65","insurance_type_g65","insurance_type_g65","insurance_type_g65","insurance_type_g65_com","insurance_type_g65_com","insurance_type_g65_com","insurance_type_g65_com","insurance_type","insurance_type","insurance_type","insurance_type","doctor_quit_advice_cig","doctor_quit_advice_cig","doctor_quit_advice_all","doctor_quit_advice_all","ever_cancer","ever_cancer","age"],["&lt;45","45+","Female","Male","Non-Hispanic White","Non-Hispanic Black","Hispanic","Non-Hispanic Other","High School/GED","Less than High School","Some College","Bachelors or higher","Below Poverty Level","Above Poverty Level","Current Smoker","Former Smoker","Covered","Not Covered","Private","Medicaid/Public","Other","Uninsured","Private","Dual Eligible","Medicare Advantage/Medicare","Other","Uninsured","Private","Medicaid/Public","Other","Uninsured","Private","Medicaid/Public","Other","Uninsured","No","Yes","No","Yes","No","Yes","age"],["44.5 [42.5-46.6]","55.5 [53.4-57.5]","44.6 [42.6-46.5]","55.4 [53.5-57.4]","67.6 [65.3-69.8]","13.7 [12.1-15.4]","12.2 [10.7-14.0]"," 6.5 [ 5.5- 7.6]","41.0 [39.0-43.0]","14.8 [13.2-16.5]","30.6 [28.8-32.4]","13.7 [12.5-15.0]","17.4 [15.9-19.0]","82.6 [81.0-84.1]","86.3 [84.9-87.6]","13.7 [12.4-15.1]","84.3 [82.7-85.8]","15.7 [14.2-17.3]","49.9 [47.6-52.3]","25.8 [23.7-28.0]"," 5.8 [ 5.0- 6.8]","18.5 [16.7-20.3]","29.2 [25.5-33.2]","15.4 [12.7-18.7]","42.7 [38.8-46.7]","11.9 [ 9.5-14.9]"," 0.8 [ 0.2- 2.6]","44.6 [40.5-48.8]","42.7 [38.8-46.7]","11.9 [ 9.5-14.9]"," 0.8 [ 0.2- 2.6]","49.1 [47.0-51.1]","28.5 [26.6-30.4]"," 6.8 [ 6.0- 7.8]","15.7 [14.2-17.3]","58.5 [56.6-60.5]","41.5 [39.5-43.4]","57.7 [55.9-59.6]","42.3 [40.4-44.1]","91.5 [90.4-92.5]"," 8.5 [ 7.5- 9.6]","47.8 [15.3]"],["1333 (14799948)","2271 (18422930)","1730 (14836273)","1879 (18454444)","2496 (22494323)","504 (4563742)","390 (4075404)","219 (2157247)","1401 (13502063)","443 (4879910)","1136 (10078250)","602 (4511023)","692 (5799745)","2917 (27490971)","3139 (28725380)","470 (4565336)","3128 (27979509)","469 (5196191)","1392 (13945716)","742 (7204817)","192 (1630932)","464 (5154746)","236 (1528757)","127 (808612)","346 (2235121)","93 (625553)","5 (41444)","363 (2337369)","346 (2235121)","93 (625553)","5 (41444)","1755 (16283085)","1088 (9439938)","285 (2256485)","469 (5196191)","2011 (19485909)","1598 (13804807)","1968 (19199501)","1636 (14050493)","3251 (30437245)","355 (2825461)","3607 (33277304)"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>varname<\/th>\n      <th>variable<\/th>\n      <th>prev_overall<\/th>\n      <th>n<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":200,"dom":"Bfrtip","buttons":["copy","csv","excel","pdf","print"],"columnDefs":[],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[10,25,50,100,200]}},"evals":[],"jsHooks":[]}</script>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Preprocess NHIS 2022 Data</h1>
 </div>
-</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="download-data-for-nhis-2022" class="level1">
+<h1>Download Data for nhis 2022</h1>
 </section>
-<section id="descriptive-table-for-all-sample" class="level2">
-<h2 class="anchored" data-anchor-id="descriptive-table-for-all-sample">Descriptive Table for all sample</h2>
-<div class="cell">
-<div class="cell-output-display">
-
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-5db4b4c18e9dea102d60" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-5db4b4c18e9dea102d60">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["age_cat","age_cat","sex","sex","race_eth","race_eth","race_eth","race_eth","educ","educ","educ","educ","poverty","poverty","smoking_status","smoking_status","smoking_status","covered_ins","covered_ins","insurance_type_l65","insurance_type_l65","insurance_type_l65","insurance_type_l65","insurance_type_g65","insurance_type_g65","insurance_type_g65","insurance_type_g65","insurance_type_g65","insurance_type_g65_com","insurance_type_g65_com","insurance_type_g65_com","insurance_type_g65_com","insurance_type","insurance_type","insurance_type","insurance_type","doctor_quit_advice_cig","doctor_quit_advice_cig","doctor_quit_advice_all","doctor_quit_advice_all","ever_cancer","ever_cancer","age"],["&lt;45","45+","Female","Male","Non-Hispanic White","Non-Hispanic Black","Hispanic","Non-Hispanic Other","High School/GED","Less than High School","Some College","Bachelors or higher","Below Poverty Level","Above Poverty Level","Never Smoked","Current Smoker","Former Smoker","Covered","Not Covered","Private","Medicaid/Public","Other","Uninsured","Private","Dual Eligible","Medicare Advantage/Medicare","Other","Uninsured","Private","Medicaid/Public","Other","Uninsured","Private","Medicaid/Public","Other","Uninsured","No","Yes","No","Yes","No","Yes","age"],["51.8 [50.0-53.6]","48.2 [46.4-50.0]","39.4 [37.8-40.9]","60.6 [59.1-62.2]","69.1 [67.1-71.0]","13.0 [11.6-14.4]","11.2 [ 9.9-12.6]"," 6.8 [ 5.8- 7.8]","37.9 [36.3-39.6]","11.4 [10.3-12.7]","32.5 [31.0-34.1]","18.2 [17.0-19.4]","14.3 [13.1-15.5]","85.7 [84.5-86.9]","19.1 [17.8-20.6]","57.0 [55.3-58.6]","23.9 [22.6-25.2]","86.5 [85.2-87.7]","13.5 [12.3-14.8]","57.3 [55.3-59.2]","21.5 [19.9-23.3]"," 5.7 [ 5.0- 6.6]","15.5 [14.1-16.9]","31.3 [27.9-34.9]","12.9 [10.7-15.5]","43.1 [39.5-46.7]","12.0 [ 9.9-14.5]"," 0.7 [ 0.2- 2.1]","44.2 [40.6-48.0]","43.1 [39.5-46.7]","12.0 [ 9.9-14.5]"," 0.7 [ 0.2- 2.1]","55.5 [53.8-57.2]","24.4 [22.9-26.0]"," 6.6 [ 5.9- 7.4]","13.5 [12.3-14.8]","58.5 [56.5-60.5]","41.5 [39.5-43.5]","66.3 [64.7-67.8]","33.7 [32.2-35.3]","92.9 [92.1-93.6]"," 7.1 [ 6.4- 7.9]","44.8 [16.0]"],["2204 (25872652)","2942 (24108339)","2157 (19844136)","3008 (30545694)","3635 (34816448)","669 (6534623)","526 (5637819)","336 (3405189)","1851 (18954571)","514 (5702943)","1675 (16241758)","1092 (9071397)","829 (7187398)","4337 (43206681)","822 (9634171)","3135 (28688851)","1207 (12027643)","4557 (43457246)","594 (6779045)","2328 (24916446)","920 (9374151)","276 (2498703)","588 (6732537)","327 (2101589)","138 (866735)","444 (2889192)","122 (804666)","6 (46508)","465 (2968325)","444 (2889192)","122 (804666)","6 (46508)","2793 (27884771)","1364 (12263344)","398 (3303369)","594 (6779045)","2008 (19459665)","1596 (13790329)","3261 (33394302)","1905 (16999778)","4700 (46743747)","460 (3599079)","5162 (50356636)"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>varname<\/th>\n      <th>variable<\/th>\n      <th>prev_overall<\/th>\n      <th>n<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":200,"dom":"Bfrtip","buttons":["copy","csv","excel","pdf","print"],"columnDefs":[],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[10,25,50,100,200]}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
+<section id="select-data-for-nhis-2022" class="level1">
+<h1>Select data for nhis 2022</h1>
+</section>
+<section id="clean-data-for-nhis-2022" class="level1">
+<h1>Clean data for nhis 2022</h1>
 
 
 </section>
@@ -460,19 +447,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Introduction</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./table2.html" class="pagination-link">
-        <span class="nav-page-text">Stratified Tables</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 

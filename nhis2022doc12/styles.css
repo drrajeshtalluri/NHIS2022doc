@@ -1,0 +1,51 @@
+/* css styles */
+.sidebar-navigation li a {
+display : block;
+padding-top: 10px;
+padding-left: 2px;
+padding-bottom: 10px;
+padding-right 2px;
+color: #888;
+font-size: larger;
+}
+
+
+div.sidebar-item-container .active, div.sidebar-item-container .show>.nav-link, div.sidebar-item-container .sidebar-link>code {
+    color: #78c2ad;
+}
+
+
+#quarto-content>* {
+    padding-top: 0px;
+}
+
+
+
+
+
+body{
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+}
+
+h1{
+  color:#78c2ad;
+  font-size:30px;
+  margin-bottom: 0.5em;
+  border-bottom: 3px solid;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 300;
+}
+
+h2,h3,h4,h5,h6{
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  color:#78c2ad;
+  margin: 0.5em 0 0.5em 0;
+  border-bottom: 1px solid;
+
+}
+
+#toc-title{
+  color: #333;
+}
