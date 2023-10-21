@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./table3.html" rel="next">
-<link href="./table2.html" rel="prev">
+<link href="./table1.html" rel="prev">
 <link href="./logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -150,13 +150,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./table2.html" class="sidebar-item-text sidebar-link"><i class="bi bi-bookmark-fill" role="img">
-</i> 
- <span class="menu-text">Stratified Tables</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./table2a.html" class="sidebar-item-text sidebar-link active"><i class="bi bi-bookmark-fill" role="img">
 </i> 
  <span class="menu-text">Stratified Tables for any tobacco use</span></a>
@@ -167,20 +160,6 @@ ul.task-list li input[type="checkbox"] {
   <a href="./table3.html" class="sidebar-item-text sidebar-link"><i class="bi bi-bookmark-fill" role="img">
 </i> 
  <span class="menu-text">Regression Table for Doctor advice</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./table4.html" class="sidebar-item-text sidebar-link"><i class="bi bi-bookmark-fill" role="img">
-</i> 
- <span class="menu-text">Regression Table for Doctor advice in cancer survivors</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./table5.html" class="sidebar-item-text sidebar-link"><i class="bi bi-bookmark-fill" role="img">
-</i> 
- <span class="menu-text">Regression Table for Doctor advice individuals with no cancer history</span></a>
   </div>
 </li>
     </ul>
@@ -194,7 +173,6 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#doctor-advice-to-quit-smoking-stratified-by-covariates" id="toc-doctor-advice-to-quit-smoking-stratified-by-covariates" class="nav-link active" data-scroll-target="#doctor-advice-to-quit-smoking-stratified-by-covariates">Doctor advice to quit smoking stratified by covariates</a></li>
-  <li><a href="#doctor-advice-to-quit-smoking-in-individuals-with-cancer-vs-without-cancer-stratified-by-covariates" id="toc-doctor-advice-to-quit-smoking-in-individuals-with-cancer-vs-without-cancer-stratified-by-covariates" class="nav-link" data-scroll-target="#doctor-advice-to-quit-smoking-in-individuals-with-cancer-vs-without-cancer-stratified-by-covariates">Doctor advice to quit smoking in Individuals with Cancer vs without Cancer stratified by covariates</a></li>
   </ul>
 </nav>
     </div>
@@ -208,18 +186,8 @@ ul.task-list li input[type="checkbox"] {
 <div class="cell">
 <div class="cell-output-display">
 
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-49b07c946413c1b083b7" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-49b07c946413c1b083b7">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["age_cat","age_cat","sex","sex","race_eth","race_eth","race_eth","race_eth","educ","educ","educ","educ","poverty","poverty","smoking_status","smoking_status","smoking_status","covered_ins","covered_ins","insurance_type_l65","insurance_type_l65","insurance_type_l65","insurance_type_l65","insurance_type_g65","insurance_type_g65","insurance_type_g65","insurance_type_g65","insurance_type_g65","insurance_type_g65_com","insurance_type_g65_com","insurance_type_g65_com","insurance_type_g65_com","insurance_type","insurance_type","insurance_type","insurance_type","doctor_quit_advice_cig","doctor_quit_advice_cig","ever_cancer","ever_cancer","doc_visit_recent","doc_visit_recent","dental_visit_recent","dental_visit_recent","urban_rural","urban_rural"],["45+","&lt;45","Female","Male","Non-Hispanic White","Non-Hispanic Black","Hispanic","Non-Hispanic Other","Less than High School","High School/GED","Some College","Bachelors or higher","Below Poverty Level","Above Poverty Level","Never Smoked","Current Smoker","Former Smoker","Covered","Not Covered","Private","Medicaid/Public","Other","Uninsured","Private","Dual Eligible","Medicare Advantage/Medicare","Other","Uninsured","Private","Medicaid/Public","Other","Uninsured","Private","Medicaid/Public","Other","Uninsured","No","Yes","No","Yes","No","Yes","No","Yes","Metro","Non-Metro"],["54.7 [52.6-56.9]","76.7 [74.6-78.7]","60.5 [58.0-63.0]","70.0 [68.0-71.9]","63.6 [61.7-65.4]","67.1 [62.9-71.0]","78.8 [74.2-82.7]","71.4 [65.4-76.7]","62.7 [58.0-67.3]","64.8 [62.2-67.4]","64.9 [62.2-67.5]","74.1 [71.0-76.9]","61.6 [57.4-65.6]","67.0 [65.4-68.7]","84.5 [81.4-87.2]","56.2 [54.2-58.2]","75.8 [72.9-78.5]","63.7 [62.0-65.4]","82.5 [78.6-85.8]","70.5 [68.3-72.7]","57.0 [53.0-60.9]","52.5 [45.5-59.4]","82.4 [78.5-85.7]","53.7 [47.5-59.8]","42.3 [32.8-52.5]","53.2 [48.1-58.3]","53.2 [43.4-62.8]","91.3 [51.3-99.0]","50.4 [44.8-55.9]","53.2 [48.1-58.3]","53.2 [43.4-62.8]","91.3 [51.3-99.0]","68.4 [66.3-70.4]","56.1 [52.9-59.3]","52.6 [46.7-58.5]","82.5 [78.6-85.8]","83.5 [81.7-85.1]","21.5 [19.0-24.1]","68.0 [66.4-69.5]","44.0 [38.9-49.3]","88.6 [86.2-90.5]","59.6 [57.9-61.4]","67.1 [64.8-69.3]","65.4 [63.3-67.4]","67.3 [65.6-69.0]","61.8 [58.0-65.6]"],["45.3 [43.1-47.4]","23.3 [21.3-25.4]","39.5 [37.0-42.0]","30.0 [28.1-32.0]","36.4 [34.6-38.3]","32.9 [29.0-37.1]","21.2 [17.3-25.8]","28.6 [23.3-34.6]","37.3 [32.7-42.0]","35.2 [32.6-37.8]","35.1 [32.5-37.8]","25.9 [23.1-29.0]","38.4 [34.4-42.6]","33.0 [31.3-34.6]","15.5 [12.8-18.6]","43.8 [41.8-45.8]","24.2 [21.5-27.1]","36.3 [34.6-38.0]","17.5 [14.2-21.4]","29.5 [27.3-31.7]","43.0 [39.1-47.0]","47.5 [40.6-54.5]","17.6 [14.3-21.5]","46.3 [40.2-52.5]","57.7 [47.5-67.2]","46.8 [41.7-51.9]","46.8 [37.2-56.6]"," 8.7 [ 1.0-48.7]","49.6 [44.1-55.2]","46.8 [41.7-51.9]","46.8 [37.2-56.6]"," 8.7 [ 1.0-48.7]","31.6 [29.6-33.7]","43.9 [40.7-47.1]","47.4 [41.5-53.3]","17.5 [14.2-21.4]","16.5 [14.9-18.3]","78.5 [75.9-81.0]","32.0 [30.5-33.6]","56.0 [50.7-61.1]","11.4 [ 9.5-13.8]","40.4 [38.6-42.1]","32.9 [30.7-35.2]","34.6 [32.6-36.7]","32.7 [31.0-34.4]","38.2 [34.4-42.0]"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>varname<\/th>\n      <th>variable<\/th>\n      <th>doctor_quit_advice_all_No<\/th>\n      <th>doctor_quit_advice_all_Yes<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":200,"dom":"Bfrtip","buttons":["copy","csv","excel","pdf","print"],"columnDefs":[],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[10,25,50,100,200]}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-</section>
-<section id="doctor-advice-to-quit-smoking-in-individuals-with-cancer-vs-without-cancer-stratified-by-covariates" class="level2">
-<h2 class="anchored" data-anchor-id="doctor-advice-to-quit-smoking-in-individuals-with-cancer-vs-without-cancer-stratified-by-covariates">Doctor advice to quit smoking in Individuals with Cancer vs without Cancer stratified by covariates</h2>
-<div class="cell">
-<div class="cell-output-display">
-
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-33a3c223d1a34cd4674c" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-33a3c223d1a34cd4674c">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["age_cat","age_cat","sex","sex","race_eth","race_eth","race_eth","race_eth","educ","educ","educ","educ","poverty","poverty","smoking_status","smoking_status","smoking_status","covered_ins","covered_ins","insurance_type_l65","insurance_type_l65","insurance_type_l65","insurance_type_l65","insurance_type_g65","insurance_type_g65","insurance_type_g65","insurance_type_g65","insurance_type_g65_com","insurance_type_g65_com","insurance_type_g65_com","insurance_type","insurance_type","insurance_type","insurance_type","doctor_quit_advice_cig","doctor_quit_advice_cig","ever_cancer","doc_visit_recent","doc_visit_recent","dental_visit_recent","dental_visit_recent","urban_rural","urban_rural"],["45+","&lt;45","Female","Male","Non-Hispanic White","Non-Hispanic Black","Hispanic","Non-Hispanic Other","Less than High School","High School/GED","Some College","Bachelors or higher","Below Poverty Level","Above Poverty Level","Never Smoked","Current Smoker","Former Smoker","Covered","Not Covered","Private","Medicaid/Public","Other","Uninsured","Private","Dual Eligible","Medicare Advantage/Medicare","Other","Private","Medicaid/Public","Other","Private","Medicaid/Public","Other","Uninsured","No","Yes","Yes","No","Yes","No","Yes","Metro","Non-Metro"],["57.2 [51.5-62.7]","49.8 [35.7-63.9]","60.5 [53.0-67.5]","51.0 [43.4-58.5]","55.3 [49.6-60.9]","74.0 [54.2-87.3]","48.5 [25.1-72.6]","49.3 [22.6-76.5]","62.1 [46.3-75.7]","59.5 [49.8-68.5]","59.5 [50.6-67.9]","39.7 [29.7-50.7]","65.1 [51.0-77.0]","54.4 [48.6-60.1]","15.0 [ 5.8-33.7]","68.1 [61.8-73.8]","31.2 [22.1-41.9]","56.0 [50.5-61.3]","48.3 [21.7-75.9]","45.0 [35.2-55.1]","71.3 [57.1-82.3]","73.0 [52.3-86.9]","48.3 [21.6-76.0]","55.7 [43.8-67.0]","58.4 [37.6-76.6]","56.7 [44.8-67.8]","53.4 [33.2-72.6]","56.5 [46.1-66.3]","56.7 [44.8-67.8]","53.4 [33.2-72.6]","49.2 [41.7-56.8]","63.5 [54.5-71.7]","64.2 [49.4-76.6]","48.3 [21.7-75.9]","34.9 [26.7-44.0]","85.1 [78.8-89.8]","56.0 [50.7-61.2]","10.4 [ 3.3-28.2]","59.3 [53.8-64.5]","58.1 [50.5-65.3]","54.1 [46.7-61.3]","55.0 [48.9-60.9]","59.6 [48.5-69.8]"],["43.6 [41.4-45.9]","22.7 [20.7-24.8]","37.3 [34.7-39.9]","28.8 [26.9-30.8]","34.7 [32.8-36.6]","31.2 [27.3-35.5]","20.3 [16.3-25.0]","27.6 [22.3-33.5]","35.6 [30.9-40.5]","33.5 [31.0-36.2]","33.1 [30.4-35.8]","24.8 [21.8-28.0]","36.2 [32.1-40.5]","31.4 [29.7-33.1]","15.4 [12.6-18.7]","41.5 [39.5-43.5]","23.8 [21.0-26.8]","34.6 [32.9-36.3]","17.0 [13.7-20.9]","28.7 [26.5-31.0]","41.2 [37.3-45.3]","44.5 [37.1-52.1]","17.1 [13.8-20.9]","43.6 [36.4-51.0]","57.5 [46.2-68.0]","44.4 [38.8-50.0]","44.7 [33.5-56.4]","47.7 [41.3-54.1]","44.4 [38.8-50.0]","44.7 [33.5-56.4]","30.4 [28.3-32.6]","41.9 [38.5-45.3]","44.5 [38.2-51.0]","17.0 [13.7-20.9]","15.5 [13.8-17.3]","77.6 [74.7-80.4]",null,"11.5 [ 9.4-13.9]","38.6 [36.8-40.4]","31.0 [28.8-33.3]","33.1 [31.0-35.2]","31.0 [29.3-32.8]","36.3 [32.5-40.3]"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>varname<\/th>\n      <th>variable<\/th>\n      <th>doctor_quit_advice_all_Yes_cancer<\/th>\n      <th>doctor_quit_advice_all_Yes_nocancer<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":200,"dom":"Bfrtip","buttons":["copy","csv","excel","pdf","print"],"columnDefs":[],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[10,25,50,100,200]}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-7e48a29874a0cbfff77b" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-7e48a29874a0cbfff77b">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"data":[["age_cat","age_cat","sex","sex","race_eth","race_eth","race_eth","race_eth","educ","educ","educ","educ","poverty","poverty","smoking_status","smoking_status","smoking_status","covered_ins","covered_ins","insurance_type_l65","insurance_type_l65","insurance_type_l65","insurance_type_l65","insurance_type_g65","insurance_type_g65","insurance_type_g65","insurance_type_g65","insurance_type_g65","insurance_type_g65_com","insurance_type_g65_com","insurance_type_g65_com","insurance_type_g65_com","insurance_type","insurance_type","insurance_type","insurance_type","doctor_quit_advice_cig","doctor_quit_advice_cig","ever_cancer","ever_cancer","doc_visit_recent","doc_visit_recent","dental_visit_recent","dental_visit_recent","urban_rural","urban_rural","us_born","us_born"],["45+","&lt;45","Male","Female","Non-Hispanic White","Non-Hispanic Black","Hispanic","Non-Hispanic Other","Less than High School","High School/GED","Some College","Bachelors or higher","Below Poverty Level","Above Poverty Level","Never Smoked","Current Smoker","Former Smoker","Covered","Not Covered","Private","Medicaid/Public","Other","Uninsured","Private","Dual Eligible","Medicare Advantage/Medicare","Other","Uninsured","Private","Medicaid/Public","Other","Uninsured","Private","Medicaid/Public","Other","Uninsured","No","Yes","No","Yes","No","Yes","No","Yes","Metro","Non-Metro","Yes","No"],["50.1 [47.7-52.4]","72.9 [70.4-75.2]","65.0 [62.7-67.2]","56.9 [54.3-59.5]","59.2 [57.2-61.2]","61.5 [56.8-65.9]","74.2 [68.8-78.9]","67.4 [60.5-73.6]","52.8 [47.2-58.4]","59.2 [56.3-62.1]","61.0 [58.0-63.9]","72.2 [68.8-75.3]","55.1 [50.4-59.8]","62.7 [60.8-64.5]","83.8 [80.5-86.7]","48.8 [46.6-51.0]","72.8 [69.6-75.7]","60.4 [58.6-62.2]","73.0 [67.0-78.2]","67.7 [65.3-70.1]","52.4 [48.1-56.6]","49.3 [41.9-56.7]","72.8 [66.9-78.0]","52.1 [45.9-58.3]","38.8 [29.3-49.3]","50.5 [45.1-55.9]","52.5 [42.3-62.4]","88.6 [39.5-98.9]","48.4 [42.7-54.0]","50.5 [45.1-55.9]","52.5 [42.3-62.4]","88.6 [39.5-98.9]","65.5 [63.2-67.7]","51.9 [48.4-55.3]","50.1 [43.9-56.3]","73.0 [67.0-78.2]","78.7 [76.4-80.8]","20.5 [18.0-23.2]","63.3 [61.5-65.1]","41.8 [36.6-47.3]","83.3 [78.3-87.3]","59.6 [57.9-61.4]","56.4 [53.6-59.2]","65.4 [63.3-67.4]","62.9 [61.0-64.8]","56.2 [52.0-60.2]","60.1 [58.2-61.9]","74.0 [68.9-78.6]"],["49.9 [47.6-52.3]","27.1 [24.8-29.6]","35.0 [32.8-37.3]","43.1 [40.5-45.7]","40.8 [38.8-42.8]","38.5 [34.1-43.2]","25.8 [21.1-31.2]","32.6 [26.4-39.5]","47.2 [41.6-52.8]","40.8 [37.9-43.7]","39.0 [36.1-42.0]","27.8 [24.7-31.2]","44.9 [40.2-49.6]","37.3 [35.5-39.2]","16.2 [13.3-19.5]","51.2 [49.0-53.4]","27.2 [24.3-30.4]","39.6 [37.8-41.4]","27.0 [21.8-33.0]","32.3 [29.9-34.7]","47.6 [43.4-51.9]","50.7 [43.3-58.1]","27.2 [22.0-33.1]","47.9 [41.7-54.1]","61.2 [50.7-70.7]","49.5 [44.1-54.9]","47.5 [37.6-57.7]","11.4 [ 1.1-60.5]","51.6 [46.0-57.3]","49.5 [44.1-54.9]","47.5 [37.6-57.7]","11.4 [ 1.1-60.5]","34.5 [32.3-36.8]","48.1 [44.7-51.6]","49.9 [43.7-56.1]","27.0 [21.8-33.0]","21.3 [19.2-23.6]","79.5 [76.8-82.0]","36.7 [34.9-38.5]","58.2 [52.7-63.4]","16.7 [12.7-21.7]","40.4 [38.6-42.1]","43.6 [40.8-46.4]","34.6 [32.6-36.7]","37.1 [35.2-39.0]","43.8 [39.8-48.0]","39.9 [38.1-41.8]","26.0 [21.4-31.1]"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>varname<\/th>\n      <th>variable<\/th>\n      <th>doctor_quit_advice_all_No<\/th>\n      <th>doctor_quit_advice_all_Yes<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":200,"dom":"Bfrtip","buttons":["copy","csv","excel","pdf","print"],"columnDefs":[],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[10,25,50,100,200]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 
@@ -463,8 +431,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./table2.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Stratified Tables</span>
+      <a href="./table1.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Descriptive Tables</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

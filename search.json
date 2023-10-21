@@ -1,24 +1,24 @@
 [
   {
-    "objectID": "table5.html#regression-predicting-likelihood-of-doctors-advice-to-quit-smoking-all-tobacco",
-    "href": "table5.html#regression-predicting-likelihood-of-doctors-advice-to-quit-smoking-all-tobacco",
+    "objectID": "table3.html#regression-predicting-likelihood-of-doctors-advice-to-quit-smoking-all-tobacco-minus-ins_cov",
+    "href": "table3.html#regression-predicting-likelihood-of-doctors-advice-to-quit-smoking-all-tobacco-minus-ins_cov",
     "title": "NHIS 2022 Cancer Smoking advice",
-    "section": "Regression predicting likelihood of doctors advice to quit smoking all tobacco",
-    "text": "Regression predicting likelihood of doctors advice to quit smoking all tobacco"
+    "section": "Regression predicting likelihood of doctors advice to quit smoking all tobacco (minus ins_cov)",
+    "text": "Regression predicting likelihood of doctors advice to quit smoking all tobacco (minus ins_cov)"
   },
   {
-    "objectID": "table3.html#regression-predicting-likelihood-of-doctors-advice-to-quit-smoking-all-tobacco",
-    "href": "table3.html#regression-predicting-likelihood-of-doctors-advice-to-quit-smoking-all-tobacco",
+    "objectID": "table3.html#regression-predicting-likelihood-of-doctors-advice-to-quit-smoking-all-tobacco-minus-us_born",
+    "href": "table3.html#regression-predicting-likelihood-of-doctors-advice-to-quit-smoking-all-tobacco-minus-us_born",
     "title": "NHIS 2022 Cancer Smoking advice",
-    "section": "Regression predicting likelihood of doctors advice to quit smoking all tobacco",
-    "text": "Regression predicting likelihood of doctors advice to quit smoking all tobacco"
+    "section": "Regression predicting likelihood of doctors advice to quit smoking all tobacco (minus us_born)",
+    "text": "Regression predicting likelihood of doctors advice to quit smoking all tobacco (minus us_born)"
   },
   {
-    "objectID": "table2.html#doctor-advice-to-quit-smoking-in-individuals-with-cancer-vs-without-cancer-stratified-by-covariates",
-    "href": "table2.html#doctor-advice-to-quit-smoking-in-individuals-with-cancer-vs-without-cancer-stratified-by-covariates",
-    "title": "NHIS 2022 Cancer Smoking advice",
-    "section": "Doctor advice to quit smoking in Individuals with Cancer vs without Cancer stratified by covariates",
-    "text": "Doctor advice to quit smoking in Individuals with Cancer vs without Cancer stratified by covariates"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Study Sample (All tobacco users)\nStudy sample description: Sample adults 18+ who are current cigarette smokers OR former cigarette smokers who have quit in the past 12 months OR currently smoke ecigarettes, cigars, pipes, or use smokeless tobacco every day or some days and visited a doctor/dentist in the past 12 months"
   },
   {
     "objectID": "preproc.html",
@@ -26,33 +26,5 @@
     "title": "Preprocess NHIS 2022 Data",
     "section": "",
     "text": "Download Data for nhis 2022\n\n\nSelect data for nhis 2022\n\n\nClean data for nhis 2022"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "",
-    "section": "",
-    "text": "Study Sample (Only cigarette users)\nStudy sample description: Sample adults 18+ who are current cigarette smokers or former cigarette smokers who have quit in the past 12 months and visited a doctor in the past 12 months\n\n\n\n\n\n\n\n\nStudy Sample (All tobacco users)\nStudy sample description: Sample adults 18+ who are current cigarette smokers OR former cigarette smokers who have quit in the past 12 months OR currently smoke ecigarettes, cigars, pipes, or use smokeless tobacco every day or some days and visited a doctor in the past 12 months"
-  },
-  {
-    "objectID": "table1.html#descriptive-table-for-all-sample",
-    "href": "table1.html#descriptive-table-for-all-sample",
-    "title": "NHIS 2022 Cancer Smoking advice",
-    "section": "Descriptive Table for all sample",
-    "text": "Descriptive Table for all sample"
-  },
-  {
-    "objectID": "table2a.html#doctor-advice-to-quit-smoking-in-individuals-with-cancer-vs-without-cancer-stratified-by-covariates",
-    "href": "table2a.html#doctor-advice-to-quit-smoking-in-individuals-with-cancer-vs-without-cancer-stratified-by-covariates",
-    "title": "NHIS 2022 Cancer Smoking advice",
-    "section": "Doctor advice to quit smoking in Individuals with Cancer vs without Cancer stratified by covariates",
-    "text": "Doctor advice to quit smoking in Individuals with Cancer vs without Cancer stratified by covariates"
-  },
-  {
-    "objectID": "table4.html#regression-predicting-likelihood-of-doctors-advice-to-quit-smoking-all-tobacco",
-    "href": "table4.html#regression-predicting-likelihood-of-doctors-advice-to-quit-smoking-all-tobacco",
-    "title": "NHIS 2022 Cancer Smoking advice",
-    "section": "Regression predicting likelihood of doctors advice to quit smoking all tobacco",
-    "text": "Regression predicting likelihood of doctors advice to quit smoking all tobacco"
   }
 ]
